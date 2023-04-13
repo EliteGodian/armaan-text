@@ -16,7 +16,7 @@ const name = prompt("What's your name?");
 if (!location.hash) {
   location.hash = "123";
 }
-const chatHash = location.hash.substring(1);
+const chatHash = "123";
 
 // TODO: Replace with your own channel ID
 const drone = new ScaleDrone('uouD4qTQoRKOIZD7');
