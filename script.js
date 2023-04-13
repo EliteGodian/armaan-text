@@ -14,7 +14,7 @@ const name = prompt("What's your name?");
 
 // Generate random chat hash if needed
 if (!location.hash) {
-  location.hash = Math.floor(Math.random() * 0xFFFFFF).toString(16);
+  location.hash = "123";
 }
 const chatHash = location.hash.substring(1);
 
